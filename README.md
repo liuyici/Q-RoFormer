@@ -4,7 +4,7 @@
 ##### Core idea: How to represent EEG with quaternion + Improving cross-subject generalization of EEG using quaternion rotation.
 
 ### News
-#### 🎉🎉🎉 This paper is currently under review by TAC [TAC](https://www.computer.org/csdl/journal/ta)
+#### 🎉🎉🎉 This paper is currently under review by [TAC](https://www.computer.org/csdl/journal/ta)
 
 Quaternion Neural Networks (QNN) resource package needs to be downloaded here: [[QNN](https://github.com/Orkis-Research/Pytorch-Quaternion-Neural-Networks)] 
 Datasets:
@@ -37,7 +37,7 @@ For evaluation, the leave-one-subject-out cross-validation strategy was adopted.
 
 ## Distribution Visualization
 The results of Q-RoFormer are very satisfactory. After fine-tuning, the distribution shifts are significantly reduced. Detailed information can be obtained from this figure.
-![Network Architecture](/fig2.png)
+![Visualization](/fig5.png)
 ## Citation
 Hope this code can be useful. I would appreciate you citing us in your paper. 😊
 
