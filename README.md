@@ -18,7 +18,7 @@ Electroencephalography (EEG)-based emotion recognition holds significant potenti
 - The number of model parameters is significantly reduced by 75% with a slight increase in time complexity.
 - The quaternion rotations for EEG channels are interpretable.
 
-## Requirements:
+## Execution Environment:
 - Python 3.11.4
 - Pytorch 2.0.2
 - Intel(R) Xeon(R) Gold 6226R CPU and an NVIDIA GeForce RTX 4090 GPU
