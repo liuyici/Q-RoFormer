@@ -9,12 +9,12 @@
 ![Network Architecture](/fig2.png)
 Electroencephalography (EEG)-based emotion recognition holds significant potential in affective brain–computer interfaces. However, substantial inter-subject variability—due to differences in skull anatomy, electrode placement, and emotional responses—leads to severe spatiotemporal distribution shifts, limiting model generalizability. To address this issue, this paper proposes a hypercomplex neural network model based on quaternion rotation, termed Q-RoFormer, which explicitly addresses cross-subject spatiotemporal distribution shifts from both spatial and temporal perspectives. Specifically, the quaternion Transformer module embeds multi-temporal-window EEG segments into a unified quaternion representation, leverages inter-window correlations in quaternion space to mitigate temporal distribution shifts, and applies quaternion rotations to align spatial distribution shifts across subjects. Subsequently, the quaternion long short-term memory network captures temporal dependencies across windows within the quaternion-valued sequence. Furthermore, Q-RoFormer adopts a pre-training–fine-tuning paradigm to bolster transfer learning capabilities. Extensive experiments on the SEED and SEED-IV datasets demonstrate the effectiveness of Q-RoFormer, achieving 93.47\% and 81.92\% accuracy, respectively. Ablation results confirm the role of spatial rotation in cross-subject generalization. 
 
-# In short, we did three things:
+## In short, we did three things:
 - We first used quaternion representation learning in cross-subject EEG signals.
 - From a geometric perspective, we accounted for differences in acquisition patterns across subjects by using quaternion rotations to mitigate distribution shifts.
 - Q-RoFormer's complexity is relatively low, but it significantly reduces the number of model parameters, by 25% compared to real-valued models 🎉🎉🎉!
 
-# Advantages of Q-RoFormer:
+## Advantages of Q-RoFormer:
 - The number of model parameters is significantly reduced by 75% with a slight increase in time complexity.
 - The quaternion rotations for EEG channels are interpretable.
 
