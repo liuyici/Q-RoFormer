@@ -1,13 +1,19 @@
-# EEG-Conformer
+# Q-RoFormer-
 
-### EEG Conformer: Convolutional Transformer for EEG Decoding and Visualization [[Paper](https://ieeexplore.ieee.org/document/9991178)]
-##### Core idea: spatial-temporal conv + pooling + self-attention
+### Q-RoFormer: Quaternion Rotation-based Transformer for cross-subject EEG emotion recognition
+##### Core idea: How to represent EEG with quaternion + Improving cross-subject generalization of EEG using quaternion rotation.
 
 ### News
-#### 🎉🎉🎉 We've joined in [braindecode](https://braindecode.org/stable/index.html) toolbox. Use [**here**](https://braindecode.org/stable/generated/braindecode.models.EEGConformer.html) for detailed info.
+#### 🎉🎉🎉 This paper is currently under review by TAC [TAC](https://www.computer.org/csdl/journal/ta)
 
+Quaternion Neural Networks (QNN) resource package needs to be downloaded here: [[QNN](https://github.com/Orkis-Research/Pytorch-Quaternion-Neural-Networks)] 
+Datasets:
+You can find at: https://bcmi.sjtu.edu.cn/home/seed/seed.html and https://bcmi.sjtu.edu.cn/home/seed/seed-iv.html
+After you download the qnn resource package and dataset, run the main.py file in the terminal.
 
-Thanks to [Bru](https://github.com/bruAristimunha) and colleagues for helping with the modifications.
+If you want get some help about how to run this code,
+this is way: 230238579@seu.edu.cn
+
 
 ## Abstract
 ![Network Architecture](/visualization/Fig1.png)
