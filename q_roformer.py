@@ -68,7 +68,7 @@ class DFN_LSTM(nn.Module):
     def __init__(self, emb_size=40):
     # def __init__(self, input_size = 2790, hidden_size = 320, use_bottleneck=True, bottleneck_dim=256, radius=10.0, class_num=3):
         super(DFN_LSTM, self).__init__()
-
+        self.qlstm = QLSTM(310, 128, num_layers=1, batch_first=True, bidirectional=True)
         self.lstm = nn.LSTM(310, 128, num_layers=1, batch_first=True, bidirectional=True)
         self.bottleneck = nn.Sequential(
             nn.Linear(128 * 2, 128),  # 双向LSTM输出 size 是 2*hidden_size
@@ -84,6 +84,7 @@ class DFN_LSTM(nn.Module):
         #     x = GaussianNoise(x, sigma=1.0)
         # batch_size,feature_step, time_steps = x.shape  # [100, 310, 3]
         # x = x.view(batch_size, time_steps, feature_step)  # 合并通道和频带 -> [100, 3, 310]
+        #lstm_out, _ = self.qlstm(x)  # LSTM 输出 [batch, time_steps, hidden_size*2]
         lstm_out, _ = self.lstm(x)  # LSTM 输出 [batch, time_steps, hidden_size*2]
         # print(lstm_out.shape)  # [batch, time_steps, hidden_size*2]  [32, 3, 256]
         x = lstm_out[:, -1, :]  # 取最后一个时间步的输出  [batch, hidden_size*2]
