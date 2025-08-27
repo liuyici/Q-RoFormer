@@ -37,9 +37,9 @@ After you download the qnn resource package and dataset, run the q_roformer.py f
 If you want get some help about how to run this code, this is way: 230238579@seu.edu.cn
 
 ### Thanks
-#### 🎉🎉🎉 I would like to thank Shu for his improvements to my manuscript and providing guidance on quaternion theory.
-#### 🎉🎉🎉 I would like to thank Jean Louis Coatrieux for his help with quaternion theory.
-#### 🎉🎉🎉 I would like to thank Regine Le Bouquin Jeannes, for his rigorous approach in formula derivation.
+#### 🎉🎉🎉 I would like to thank [Huazhong Shu](https://ieeexplore.ieee.org/author/37287366300) for his improvements to my manuscript and providing guidance on quaternion theory.
+#### 🎉🎉🎉 I would like to thank [Jean Louis Coatrieux](https://ieeexplore.ieee.org/author/37298707200) for his help with quaternion theory.
+#### 🎉🎉🎉 I would like to thank [Regine Le Bouquin Jeannes](https://ieeexplore.ieee.org/author/37355517100), for his rigorous approach in formula derivation.
 
 ## Citation
 Hope this code can be useful. I would appreciate you citing us in your paper. 😊
