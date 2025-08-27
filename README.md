@@ -37,6 +37,11 @@ The results of Q-RoFormer are very satisfactory. After fine-tuning, the distribu
 If you want get some help about how to run this code,
 this is way: 230238579@seu.edu.cn
 
+### Thanks
+#### 🎉🎉🎉 I would like to thank Shu for his improvements to my manuscript and providing guidance on quaternion theory.
+#### 🎉🎉🎉 I would like to thank Jean Louis Coatrieux for his help with quaternion theory.
+#### 🎉🎉🎉 I would like to thank Regine Le Bouquin Jeannes, for his rigorous approach in formula derivation.
+
 ## Citation
 Hope this code can be useful. I would appreciate you citing us in your paper. 😊
 
