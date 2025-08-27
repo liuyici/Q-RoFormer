@@ -7,7 +7,7 @@
 
 Quaternion Neural Networks (QNN) resource package needs to be downloaded here: [[QNN](https://github.com/Orkis-Research/Pytorch-Quaternion-Neural-Networks)] 
 
-After you download the qnn resource package and dataset, run the main.py file in the terminal.
+After you download the qnn resource package and dataset, run the q_roformer.py file in the terminal.
 
 ## Abstract
 ![Network Architecture](/fig2.png)
