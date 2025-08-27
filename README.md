@@ -11,7 +11,7 @@ Electroencephalography (EEG)-based emotion recognition holds significant potenti
 
 # In short, we did three things:
 - We implemented the use of quaternions in cross-subject EEG analysis, achieving satisfactory results.
-- From a geometric perspective, we accounted for differences in acquisition patterns across subjects by using quaternion rotations to mitigate distributional variations.
+- From a geometric perspective, we accounted for differences in acquisition patterns across subjects by using quaternion rotations to mitigate distribution shifts.
 - Q-RoFormer's complexity is relatively low, but it significantly reduces the number of model parameters, by 25% compared to real-valued models 🎉🎉🎉!
 
 ## Requirements:
