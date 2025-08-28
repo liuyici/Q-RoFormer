@@ -12,7 +12,7 @@ Electroencephalography (EEG)-based emotion recognition holds significant potenti
 ### In short, we did three things:
 - We first used quaternion representation learning in cross-subject EEG signals.
 - From a geometric perspective, we accounted for differences in acquisition patterns across subjects by using quaternion rotations to mitigate distribution shifts.
-- Q-RoFormer's complexity is relatively low, but it significantly reduces the number of model parameters, by 25% compared to real-valued models 🎉🎉🎉!
+- Q-RoFormer's complexity is relatively low, but it significantly reduces the number of model parameters, by 75% compared to real-valued models 🎉🎉🎉!！
 
 ### Advantages of Q-RoFormer:
 - The number of model parameters is significantly reduced by 75% with a slight increase in time complexity.
